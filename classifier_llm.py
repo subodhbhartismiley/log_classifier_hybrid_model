@@ -31,10 +31,10 @@ def classify_with_llm(log_msg):
     return category
 
 
-if __name__ == "__main__":
-    pass
-    # print(classify_with_llm(
-    #     "Case escalation for ticket ID 7324 failed because the assigned support agent is no longer active."))
-    # print(classify_with_llm(
-    #     "The 'ReportGenerator' module will be retired in version 4.0. Please migrate to the 'AdvancedAnalyticsSuite' by Dec 2025"))
-    # print(classify_with_llm("System reboot initiated by user 12345."))
+# if __name__ == "__main__":
+#     pass
+#     # print(classify_with_llm(
+#     #     "Case escalation for ticket ID 7324 failed because the assigned support agent is no longer active."))
+#     # print(classify_with_llm(
+#     #     "The 'ReportGenerator' module will be retired in version 4.0. Please migrate to the 'AdvancedAnalyticsSuite' by Dec 2025"))
+#     # print(classify_with_llm("System reboot initiated by user 12345."))
