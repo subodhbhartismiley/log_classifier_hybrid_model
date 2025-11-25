@@ -9,7 +9,7 @@ This project implements a hybrid log classification system, combining three comp
 
 1. **Regular Expression (Regex)**:
    - Handles the most simplified and predictable patterns.
-   - Useful for patterns that are easily captured using predefined rules.
+   - Useful for patterns that are easily captured using predefined rules. (Rule based AI)
 
 2. **Sentence Transformer + Logistic Regression**:
    - Manages complex patterns when there is sufficient training data.
@@ -56,10 +56,9 @@ This project implements a hybrid log classification system, combining three comp
    uvicorn app:app --reload
    ```
 
-   Once the server is running, you can access the API at:
+   Once the app is running, you can access the API at:
    - `http://127.0.0.1:8000/` (Main endpoint)
-   - `http://127.0.0.1:8000/docs` (Interactive Swagger documentation)
-   - `http://127.0.0.1:8000/redoc` (Alternative API documentation)
+   - `http://127.0.0.1:8000/docs` (Swagger documentation)
 
 ---
 
@@ -69,7 +68,7 @@ Upload a CSV file containing logs to the FastAPI endpoint for classification. En
 - `source`
 - `log_message`
 
-The output will be a CSV file with an additional column `target_label`, which represents the classified label for each log entry.
+The output will be a CSV file with an additional column `target_label`, which represents the classified label for each log.
 
 ---
 * Taken reference from codebasics learning youtube channel
